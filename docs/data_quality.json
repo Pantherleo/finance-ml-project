@@ -1,0 +1,44 @@
+{
+  "gold": {
+    "input_rows": 4745,
+    "accepted_rows": 4744,
+    "rejected_by_reason": {
+      "high_below_low": 1
+    },
+    "first_date": "2007-01-02",
+    "last_date": "2025-11-09",
+    "max_calendar_gap_days": 5,
+    "close_outside_high_low_rows": 147,
+    "cleaning": "Read-only exclusion of invalid Date/Close/High/Low and High<Low; no fill or resampling"
+  },
+  "crude_oil": {
+    "input_rows": 4746,
+    "accepted_rows": 4746,
+    "rejected_by_reason": {},
+    "first_date": "2007-01-02",
+    "last_date": "2025-11-09",
+    "max_calendar_gap_days": 5,
+    "close_outside_high_low_rows": 0,
+    "cleaning": "Read-only exclusion of invalid Date/Close/High/Low and High<Low; no fill or resampling"
+  },
+  "forex_usd_inr": {
+    "input_rows": 4889,
+    "accepted_rows": 4889,
+    "rejected_by_reason": {},
+    "first_date": "2007-01-01",
+    "last_date": "2025-11-10",
+    "max_calendar_gap_days": 26,
+    "close_outside_high_low_rows": 232,
+    "cleaning": "Read-only exclusion of invalid Date/Close/High/Low and High<Low; no fill or resampling"
+  },
+  "nifty50": {
+    "input_rows": 4462,
+    "accepted_rows": 4462,
+    "rejected_by_reason": {},
+    "first_date": "2007-09-17",
+    "last_date": "2025-11-25",
+    "max_calendar_gap_days": 6,
+    "close_outside_high_low_rows": 0,
+    "cleaning": "Read-only exclusion of invalid Date/Close/High/Low and High<Low; no fill or resampling"
+  }
+}
