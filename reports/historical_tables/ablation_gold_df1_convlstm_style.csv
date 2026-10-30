@@ -1,0 +1,5 @@
+Config,Val split used,Early stopping used,Normalization,Dilation,n_train,n_val,n_test,R2_High,R2_Low,MAE_High,MAE_Low
+"1. Original-style (train/test, fixed epochs, BatchNorm, no dilation)",False,False,BatchNorm,none (kernel=3 only),1071,0,189,0.921296910673283,0.8851600136247733,30.711459113856126,31.217105832786167
+"2. Architecture fix only (train/test, fixed epochs, LayerNorm, dilation)",False,False,LayerNorm,"1,2,4",1071,0,189,0.8205712811204608,0.9364233992620487,48.00625686435538,24.732242329283437
+"3. Training-protocol change only (val split + early stop, BatchNorm, no dilation)",True,True,BatchNorm,none (kernel=3 only),911,160,189,0.7629990838817564,0.9332474633808485,52.88028419096939,24.331090286523562
+"4. Full corrected pipeline (val split + early stop, LayerNorm, dilation)",True,True,LayerNorm,"1,2,4",911,160,189,0.9362169121692995,0.9579763885744659,25.556665091082444,14.763965740332333

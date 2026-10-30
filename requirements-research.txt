@@ -1,0 +1,22 @@
+# Inferred from research notebook imports. Starting point, not a validated lockfile.
+jupyterlab
+nbformat
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+tensorflow
+keras-tcn
+xgboost
+catboost
+optuna
+yfinance
+openpyxl
+xlsxwriter
+arch
+antropy
+hurst
+nolds

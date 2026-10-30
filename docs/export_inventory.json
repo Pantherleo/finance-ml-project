@@ -1,0 +1,426 @@
+{
+  "figures": [
+    {
+      "original": "crude_oil_conv1d-lstm_predicted_vs_actual.png",
+      "organized": "reports/figures/crude_oil_conv1d-lstm_predicted_vs_actual.png",
+      "sha256": "d16d4d183fe9c804874e6bc86db577b04eb37df34c64facf8b6c9e9cd33269ea"
+    },
+    {
+      "original": "crude_oil_conv1d-lstm_r2_by_regime.png",
+      "organized": "reports/figures/crude_oil_conv1d-lstm_r2_by_regime.png",
+      "sha256": "923f5ab45d44b80c85720a93ba8e8965ee4bbed1929f6951b60b756e8654bc42"
+    },
+    {
+      "original": "crude_oil_convlstm-style_predicted_vs_actual.png",
+      "organized": "reports/figures/crude_oil_convlstm-style_predicted_vs_actual.png",
+      "sha256": "7f4c3a742643421b718d354fa1ee62c91c981dd9036de8d0d7f9a442ceb734e5"
+    },
+    {
+      "original": "crude_oil_convlstm-style_r2_by_regime.png",
+      "organized": "reports/figures/crude_oil_convlstm-style_r2_by_regime.png",
+      "sha256": "96ccb6ea768e72834857acb27a534e30970d8dbecc83a7799ece9749c7cfed0c"
+    },
+    {
+      "original": "crude_oil_tcn_predicted_vs_actual.png",
+      "organized": "reports/figures/crude_oil_tcn_predicted_vs_actual.png",
+      "sha256": "b1a8d92e8d0089956fc2cdd680626b3a222c34f925c071c667e4b2565c43930e"
+    },
+    {
+      "original": "crude_oil_tcn_r2_by_regime.png",
+      "organized": "reports/figures/crude_oil_tcn_r2_by_regime.png",
+      "sha256": "455a25b7cf97657ab3ae604ee83f2b7983c7ba076fb8f5137d2e084601ce7c14"
+    },
+    {
+      "original": "FAAST_LSTM_Results/Graphs/LSTM_High_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Forecast_Results/Graphs/LSTM_High_Actual_vs_Predicted.png",
+      "sha256": "6d0525d6356267c3ff84411728f37ddec3580ba38d9daf40fbe088ed865365ea"
+    },
+    {
+      "original": "FAAST_LSTM_Results/Graphs/LSTM_High_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Forecast_Results/Graphs/LSTM_High_Error_Distribution.png",
+      "sha256": "0fc95b5ef5449d8cb2f5ac3fc5d18c72af4a16727f260838f41b830bf632212b"
+    },
+    {
+      "original": "FAAST_LSTM_Results/Graphs/LSTM_High_Residuals.png",
+      "organized": "reports/figures/LSTM_Forecast_Results/Graphs/LSTM_High_Residuals.png",
+      "sha256": "4a4604295b61e7b366fa43ccaf500c1285ebacae40d799a618836a82ce0bf920"
+    },
+    {
+      "original": "FAAST_LSTM_Results/Graphs/LSTM_Low_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Forecast_Results/Graphs/LSTM_Low_Actual_vs_Predicted.png",
+      "sha256": "e7e30eefb5ef39b1c61eff36e7c2968d0d8f4b327b3e7e86a066f40cacb89952"
+    },
+    {
+      "original": "FAAST_LSTM_Results/Graphs/LSTM_Low_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Forecast_Results/Graphs/LSTM_Low_Error_Distribution.png",
+      "sha256": "2842ceea5f4adc695cea0a069d739ed0c91f43749c11db21f966f35a45bf7254"
+    },
+    {
+      "original": "FAAST_LSTM_Results/Graphs/LSTM_Low_Residuals.png",
+      "organized": "reports/figures/LSTM_Forecast_Results/Graphs/LSTM_Low_Residuals.png",
+      "sha256": "357f9293eea1dfe5aedcf4782f9ecd9bbfd5e08e5cd7969ecb6ab2cab0a84e9d"
+    },
+    {
+      "original": "forex_conv1d-lstm_predicted_vs_actual.png",
+      "organized": "reports/figures/forex_conv1d-lstm_predicted_vs_actual.png",
+      "sha256": "cc270b257d09559214073001ba191400a1759bc9d46ea3ab21932f6f600f22d5"
+    },
+    {
+      "original": "forex_conv1d-lstm_r2_by_regime.png",
+      "organized": "reports/figures/forex_conv1d-lstm_r2_by_regime.png",
+      "sha256": "731f3a2194b045d4a5eefc6f061a3a4fefaaca8908970e8c7c4cb599a9bff682"
+    },
+    {
+      "original": "forex_convlstm-style_predicted_vs_actual.png",
+      "organized": "reports/figures/forex_convlstm-style_predicted_vs_actual.png",
+      "sha256": "f15f8d96f086d435b2d8359e53a7ee3854c9bc22c6697c03530142cba8718c24"
+    },
+    {
+      "original": "forex_convlstm-style_r2_by_regime.png",
+      "organized": "reports/figures/forex_convlstm-style_r2_by_regime.png",
+      "sha256": "0eb837b20ad58fd2d01f330a25fdafc05ab2434f7eba436feb2df2b76d4f3ef5"
+    },
+    {
+      "original": "forex_tcn_predicted_vs_actual.png",
+      "organized": "reports/figures/forex_tcn_predicted_vs_actual.png",
+      "sha256": "a3c70d976ecc210f36a42117647e458fefe201deb1c36eb920ce3bc68e7d8ab8"
+    },
+    {
+      "original": "forex_tcn_r2_by_regime.png",
+      "organized": "reports/figures/forex_tcn_r2_by_regime.png",
+      "sha256": "e0d15bcb5acaab64137c2a5347efb33a69ea0052fbf2a1963cdb719dfce06ef2"
+    },
+    {
+      "original": "gold_conv1d-lstm_predicted_vs_actual.png",
+      "organized": "reports/figures/gold_conv1d-lstm_predicted_vs_actual.png",
+      "sha256": "4ac96a5c09e5352686b098a6f78b16579369245ca061560011643d7a49d40085"
+    },
+    {
+      "original": "gold_conv1d-lstm_r2_by_regime.png",
+      "organized": "reports/figures/gold_conv1d-lstm_r2_by_regime.png",
+      "sha256": "8e0ef32c8f87e11e1779ac2683bebb93aed1746e249197498930d26727caefd8"
+    },
+    {
+      "original": "gold_convlstm-style_predicted_vs_actual.png",
+      "organized": "reports/figures/gold_convlstm-style_predicted_vs_actual.png",
+      "sha256": "28bbb57b150997d3f7bb133f048db70fd084d30758e9e2f24f089fb460b84a38"
+    },
+    {
+      "original": "gold_convlstm-style_r2_by_regime.png",
+      "organized": "reports/figures/gold_convlstm-style_r2_by_regime.png",
+      "sha256": "c2a12ec1ed1c9adea6f3d97ea5270a77640a22397ee1891bd2c0bd51d6ad5d4f"
+    },
+    {
+      "original": "gold_tcn_predicted_vs_actual.png",
+      "organized": "reports/figures/gold_tcn_predicted_vs_actual.png",
+      "sha256": "5a9a43aedd03edbe3a6342a42dacd0212b68f5afd8d03fdc702bb4e72da6dee2"
+    },
+    {
+      "original": "gold_tcn_r2_by_regime.png",
+      "organized": "reports/figures/gold_tcn_r2_by_regime.png",
+      "sha256": "b1ec23193aef2c97d0da4b58f8fff594141782448bd759c3d455c65963dea2b3"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/plots/DF1_high_prediction.png",
+      "organized": "reports/figures/LSTM_Hyperparameter_Tuning/plots/DF1_high_prediction.png",
+      "sha256": "66bfe26a16f76b7b97c7da4f9e14e9bee1874bcfc5be20508039c5f22e8272d1"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/plots/DF1_loss_curve.png",
+      "organized": "reports/figures/LSTM_Hyperparameter_Tuning/plots/DF1_loss_curve.png",
+      "sha256": "9da4270ec56d025524cc7b3c699a9ae9512b9c77b45558c4ba59d7984512552f"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/plots/DF1_low_prediction.png",
+      "organized": "reports/figures/LSTM_Hyperparameter_Tuning/plots/DF1_low_prediction.png",
+      "sha256": "e92b285524862dfca7ea440872f82ee7f507b9531188cd832c714eb6edad8a50"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/plots/DF2_loss_curve.png",
+      "organized": "reports/figures/LSTM_Hyperparameter_Tuning/plots/DF2_loss_curve.png",
+      "sha256": "32901afa9df90aadc56f2dc1dbb45a1581e187cedfcf94d2336fe493c7c0eb34"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/plots/DF3_loss_curve.png",
+      "organized": "reports/figures/LSTM_Hyperparameter_Tuning/plots/DF3_loss_curve.png",
+      "sha256": "181a385ca83d04a26962845640f70754d819e4f7d5f65254a13c23216cc0e33c"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/plots/DF4_loss_curve.png",
+      "organized": "reports/figures/LSTM_Hyperparameter_Tuning/plots/DF4_loss_curve.png",
+      "sha256": "94848ac2edf826676e1a6f70ce38bb3523297f4cf9d3861f960ffda007bf4b27"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF1_High_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF1_High_Actual_vs_Predicted.png",
+      "sha256": "a249b2a708ca4dcb272a2afb987dfd79aa374033d4c7b816dc7439011c0b1e84"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF1_High_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF1_High_Error_Distribution.png",
+      "sha256": "c811e3babcda471c8481d9e10f0d9fcc4c2d44b690f8fc67ae5d4765c35f25b2"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF1_High_Residuals.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF1_High_Residuals.png",
+      "sha256": "ff611ee68023953680ae9e361c5d2eaf786f42c325395490cce4e3a31aeabb35"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF1_Loss.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF1_Loss.png",
+      "sha256": "2ce8aa530179c365c2343a4b769af3ec382d50a7b31a0b5ada3c6f41c9486886"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF1_Low_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF1_Low_Actual_vs_Predicted.png",
+      "sha256": "bb61f3b7edc85680ae09ca7c5bf95b2b3d20527fcc3e3486a5796e89aa4e1146"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF1_Low_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF1_Low_Error_Distribution.png",
+      "sha256": "7ea7e0ccb81bc5acda2078fc3a9f8c3df3107d69671be2cd4019ead743763212"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF1_Low_Residuals.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF1_Low_Residuals.png",
+      "sha256": "d6f1cf7ff0365c62f2cc301dec8f2bb5cdb36abea7e3b97722ef4e53b68a8224"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF2_High_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF2_High_Actual_vs_Predicted.png",
+      "sha256": "be2c64b905c4316cd07e79ae0933e5e9e2d87a24ff87ff580aa5126ab7bba562"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF2_High_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF2_High_Error_Distribution.png",
+      "sha256": "2b211926c10a56eac3c7beb3948bfb677e0a782dff718f74fa5d1542f69f40f6"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF2_High_Residuals.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF2_High_Residuals.png",
+      "sha256": "8f3b9558f51d28cc6c63a512d5e506797b2465629f71197a0548eda8e775cb1a"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF2_Loss.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF2_Loss.png",
+      "sha256": "ea069b99da63cc36731f8c7db77f2deffd799e267fb53fa79b8f97bc397005a3"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF2_Low_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF2_Low_Actual_vs_Predicted.png",
+      "sha256": "9816427a5aea3937416a703e601f2191811f64a06cddaf6d438439db1a6c515f"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF2_Low_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF2_Low_Error_Distribution.png",
+      "sha256": "4607d29ad4528ebd908a0452a840907e1829a5bfb479da403c1941e502199403"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF2_Low_Residuals.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF2_Low_Residuals.png",
+      "sha256": "65da7369f268e803853e8602384af4064266420712ab1beca59a940eff9f1720"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF3_High_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF3_High_Actual_vs_Predicted.png",
+      "sha256": "81b103388054579dca5444891d48d3a67b751b26069e3e9f45790bb43aa7608b"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF3_High_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF3_High_Error_Distribution.png",
+      "sha256": "867c49d54e908174e765a516bf0b900a80d4c962f34317d0861a81336eb9be45"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF3_High_Residuals.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF3_High_Residuals.png",
+      "sha256": "91136e76eeaf8046f97f3fdbdebbd98963a7c3ddc432b147509d2ea48079cf30"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF3_Loss.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF3_Loss.png",
+      "sha256": "755b30606a8b5e481f1b51a35a3eb020006d08965c33e81eeaeab133cb6cb76f"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF3_Low_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF3_Low_Actual_vs_Predicted.png",
+      "sha256": "a49ba8434a0004ba542165f82d884cb6db88a0dff00aa413b6613f729f71ad72"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF3_Low_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF3_Low_Error_Distribution.png",
+      "sha256": "9dd7f0836a74fc75b53670c79f1924facccf764073d3b63e9978eea01f6266c5"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF3_Low_Residuals.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF3_Low_Residuals.png",
+      "sha256": "89dcb6ea140bc0722c2c33716ba8aa45f373bbe5e183823ef26f63e20d387e99"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF4_High_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF4_High_Actual_vs_Predicted.png",
+      "sha256": "fe211723091493392dc7e17ac928b3342e24107d93f03ec88d4e6a9f640f4b40"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF4_High_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF4_High_Error_Distribution.png",
+      "sha256": "e3a65d9b5776d92603b7320dfd7abc23231561fc5721efcad1a59195ca6b8ebc"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF4_High_Residuals.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF4_High_Residuals.png",
+      "sha256": "29ff5e9e76e44a824c2bc2cf705d5711d0424fb89838d31452e2e97e22ae404c"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF4_Loss.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF4_Loss.png",
+      "sha256": "73e965ada566e1193d78c15384d9ca43bc95be2417bc0ecf6d24d68b7c0bb2b2"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF4_Low_Actual_vs_Predicted.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF4_Low_Actual_vs_Predicted.png",
+      "sha256": "140a2e66e14783240c09aede6389ded3c9f785e9f8e4e5186d9b465304fd6b3d"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF4_Low_Error_Distribution.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF4_Low_Error_Distribution.png",
+      "sha256": "0fa7c89380cf8aa25b922c5ae231533aedadb22fc897ae3a661cff5d770ce0ce"
+    },
+    {
+      "original": "LSTM_Regime_Results/DF4_Low_Residuals.png",
+      "organized": "reports/figures/LSTM_Regime_Results/DF4_Low_Residuals.png",
+      "sha256": "b266a0691e2f94d9cf4360cd3520e21a2463aee3081af11a3f95c6a150f45420"
+    },
+    {
+      "original": "nifty_50_conv1d-lstm_predicted_vs_actual.png",
+      "organized": "reports/figures/nifty_50_conv1d-lstm_predicted_vs_actual.png",
+      "sha256": "507146e4fcd32a9378d2e10aba43e2bd4024f271aad92d0bcde2dc1a1dd3f5d2"
+    },
+    {
+      "original": "nifty_50_conv1d-lstm_r2_by_regime.png",
+      "organized": "reports/figures/nifty_50_conv1d-lstm_r2_by_regime.png",
+      "sha256": "c10a98d7733eefb188476567e981402027b52e6532db94ec72ae3780df104498"
+    },
+    {
+      "original": "nifty_50_convlstm-style_predicted_vs_actual.png",
+      "organized": "reports/figures/nifty_50_convlstm-style_predicted_vs_actual.png",
+      "sha256": "507535224797ed9a01cf8d438c66f9a302dac73febe237490d76ca3e81eef901"
+    },
+    {
+      "original": "nifty_50_convlstm-style_r2_by_regime.png",
+      "organized": "reports/figures/nifty_50_convlstm-style_r2_by_regime.png",
+      "sha256": "1b81036e8fa006ef08a1e190d97ec3386e9d6e1fc19a10376921b88601f7f1a3"
+    },
+    {
+      "original": "nifty_50_tcn_predicted_vs_actual.png",
+      "organized": "reports/figures/nifty_50_tcn_predicted_vs_actual.png",
+      "sha256": "35fa8353d3b0d3e49f97cef70251fccab43a616ba9b7d33ab4d3f73eab9fd664"
+    },
+    {
+      "original": "nifty_50_tcn_r2_by_regime.png",
+      "organized": "reports/figures/nifty_50_tcn_r2_by_regime.png",
+      "sha256": "40d885d67f25e1ec47705f059784da6d2a6a76e979a29f23fb84792a511d792f"
+    }
+  ],
+  "historical_tables": [
+    {
+      "original": "ablation_gold_df1_convlstm_style.csv",
+      "organized": "reports/historical_tables/ablation_gold_df1_convlstm_style.csv",
+      "sha256": "6938e132ba9d23f57f464c5d9c50f09444f86ece134b5435d2d7e079ce87585b"
+    },
+    {
+      "original": "Conv1D_LSTM_baseline_results.csv",
+      "organized": "reports/historical_tables/Conv1D_LSTM_baseline_results.csv",
+      "sha256": "05f3e2575420ae1170b9a3fa5f8427a80a88ade13d9e593acf64e12623db36cb"
+    },
+    {
+      "original": "ConvLSTM_best_hyperparameters.csv",
+      "organized": "reports/historical_tables/ConvLSTM_best_hyperparameters.csv",
+      "sha256": "9cbc87090b84ec3d0a627455bd3f3357895aeb03816fdc5f2297f833a7b1e612"
+    },
+    {
+      "original": "ConvLSTM_OPTIMIZED_FINAL_RESULTS.csv",
+      "organized": "reports/historical_tables/ConvLSTM_OPTIMIZED_FINAL_RESULTS.csv",
+      "sha256": "e32c1895bdcd6fe460eede11338e58d0d5cd94f3226c9cf6a899396257249ef4"
+    },
+    {
+      "original": "ConvLSTM_Optuna_all_trials.csv",
+      "organized": "reports/historical_tables/ConvLSTM_Optuna_all_trials.csv",
+      "sha256": "95d714d7f01cba89eea062cc403b24e8b9c8efedfaeb88cfb0bfcc71b7f6dcf1"
+    },
+    {
+      "original": "ConvLSTM_style_baseline_results.csv",
+      "organized": "reports/historical_tables/ConvLSTM_style_baseline_results.csv",
+      "sha256": "aefa89755a7f27070ffcff1d0821c76a30e87d4d8e1cb7ea7dfbe0126712570f"
+    },
+    {
+      "original": "crude_oil_tcn_convlstm_results.csv",
+      "organized": "reports/historical_tables/crude_oil_tcn_convlstm_results.csv",
+      "sha256": "233af2335aef11ba1165a06f61f7f91c55380fe26ddafa275ac507860bb22eb4"
+    },
+    {
+      "original": "forex_tcn_convlstm_results.csv",
+      "organized": "reports/historical_tables/forex_tcn_convlstm_results.csv",
+      "sha256": "64e630bb38eae42436bdd95dc34643e5ef7fa0e1c0e2497afcc8f322f5061916"
+    },
+    {
+      "original": "gold_tcn_convlstm_results.csv",
+      "organized": "reports/historical_tables/gold_tcn_convlstm_results.csv",
+      "sha256": "220daed65728d166ab1c65d25482189613ec2b5b3a06b9d367c9f70c145a4fa1"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/All_LSTM_Trials.csv",
+      "organized": "reports/historical_tables/LSTM_Hyperparameter_Tuning/All_LSTM_Trials.csv",
+      "sha256": "16cd2a0fdc6115dcd24e689c69e2b5a6a7351f03cfc4a438df5e5f5b6bdcb17c"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/DF1_all_trials.csv",
+      "organized": "reports/historical_tables/LSTM_Hyperparameter_Tuning/DF1_all_trials.csv",
+      "sha256": "7dff6c47cd3deb77ffa82dfef0761a41d5bd8048736c461431e3c4446a730aca"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/DF1_trials.csv",
+      "organized": "reports/historical_tables/LSTM_Hyperparameter_Tuning/DF1_trials.csv",
+      "sha256": "62743e5d15106c98fdeb87d0bccb8bd8bdfccff8607ac3991b36e031d645fa0e"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/DF2_all_trials.csv",
+      "organized": "reports/historical_tables/LSTM_Hyperparameter_Tuning/DF2_all_trials.csv",
+      "sha256": "c26faaf191618cecd33cc87cfdd576d0c45c63eff487d7569d69ef70c310404c"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/DF3_all_trials.csv",
+      "organized": "reports/historical_tables/LSTM_Hyperparameter_Tuning/DF3_all_trials.csv",
+      "sha256": "214c941a4fe5166fb8c032e040e995ddcbcd51cf317b4ba321910d1ee8a219dc"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/DF4_all_trials.csv",
+      "organized": "reports/historical_tables/LSTM_Hyperparameter_Tuning/DF4_all_trials.csv",
+      "sha256": "e6bbdcf1a175264d0bc44dd26941a92633585495b89c12d793bbdcf2a49b822e"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/Final_LSTM_Results.csv",
+      "organized": "reports/historical_tables/LSTM_Hyperparameter_Tuning/Final_LSTM_Results.csv",
+      "sha256": "122a7e7d66dca029eb050d48f7a6fdecefad8e9c28a6d808402780f53c1988b1"
+    },
+    {
+      "original": "LSTM_Hyperparameter_Tuning/Selected_LSTM_Parameters.csv",
+      "organized": "reports/historical_tables/LSTM_Hyperparameter_Tuning/Selected_LSTM_Parameters.csv",
+      "sha256": "bb5fbb33394b7a24fcb18acfa08f8de45ad045d99efd20b69fd8e6f8c103e51c"
+    },
+    {
+      "original": "LSTM_Regime_Results/LSTM_Regime_Results.csv",
+      "organized": "reports/historical_tables/LSTM_Regime_Results/LSTM_Regime_Results.csv",
+      "sha256": "79c274a7f62915fc8c4d791ef01a4fb8e2e6abfb434bb4787ef26c6baded8fae"
+    },
+    {
+      "original": "nifty_50_tcn_convlstm_results.csv",
+      "organized": "reports/historical_tables/nifty_50_tcn_convlstm_results.csv",
+      "sha256": "c2ef1fe1e12a85f8d751a6537c975b1b60f75b9e2914d49416c2c150b0325577"
+    },
+    {
+      "original": "TCN_baseline_results.csv",
+      "organized": "reports/historical_tables/TCN_baseline_results.csv",
+      "sha256": "057f9ce644aa3ec644e98eb22272fd99868229cde856adbd2f65d84d3e380b43"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "raw_editor_backup",
+    "preserved_path": "archive/editor_recovery/raw/goldd.ipynb.vscode-backup",
+    "sha256": "fd808f6623183e43465cd2b185c57e6c667feace31e393c3ba83b0d50f47eaa6"
+  },
+  {
+    "kind": "raw_editor_backup",
+    "preserved_path": "archive/editor_recovery/raw/lab.ipynb.vscode-backup",
+    "sha256": "02fcc2ac51cc36204f318498bdffd0038a90dace591fd622d70719592645cc9a"
+  },
+  {
+    "kind": "raw_editor_backup",
+    "preserved_path": "archive/editor_recovery/raw/nift50_latest.ipynb.vscode-backup",
+    "sha256": "a82da5bf692e987e83102198921319116ca7b9fd7aacdbdb7cc0d6bbd1ec4f1f"
+  },
+  {
+    "kind": "editor_notebook_payload",
+    "preserved_path": "archive/editor_recovery/notebooks/goldd.ipynb",
+    "sha256": "2d4b53946b39ee4b8551f69db42b90dd6e697fe0c28aea74ab1b20419fc4af98"
+  },
+  {
+    "kind": "editor_notebook_payload",
+    "preserved_path": "archive/editor_recovery/notebooks/lab.ipynb",
+    "sha256": "0fa1891fd022c2b237d77e95e877c58e0eaec4f2314d7fab7fc1f584fb49dd3b"
+  },
+  {
+    "kind": "editor_notebook_payload",
+    "preserved_path": "archive/editor_recovery/notebooks/nift50_latest.ipynb",
+    "sha256": "b92b6e0bb557dd888d62b97abbd2f5cfcb89024f9d6c71e9426b2e5c13e43d8f"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "final.try.nifty.ipynb",
+    "preserved_path": "archive/editor_history/Code/-2e7d9775/8Kn9.ipynb",
+    "sha256": "621cacd0efd1dffcb9b30a1184194c77855ea7cb5e78a79d620c29ebe7802f27"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "aro_lstm.ipynb",
+    "preserved_path": "archive/editor_history/Code/-3627d075/ICDg.ipynb",
+    "sha256": "ec06ad5cb5aba55e4ca89f1f3d95b298862ac359e3521961d0bfa130fc7416d2"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "Untitled-1.ipynb",
+    "preserved_path": "archive/editor_history/Code/-526dcd0d/RxRv.ipynb",
+    "sha256": "b9aa5c81dabb9dfb67beff2673b1da6a1cb6e82b3aa43d9b14344b781cd9d57a"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "gold_stats.ipynb",
+    "preserved_path": "archive/editor_history/Code/-5cd0d7b6/uFIa.ipynb",
+    "sha256": "8e8709ee4c09624d9229dc6cd5573b5fc3b778706df44bb1e4049d378944e02c"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "fin.ipynb",
+    "preserved_path": "archive/editor_history/Code/-61387c4f/4qkE.ipynb",
+    "sha256": "b5b758b61167524004051859fe85d2eeecc55fb0887b723e990f69523d80ab4d"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "gold.ipynb",
+    "preserved_path": "archive/editor_history/Code/-643959d6/oLhu.ipynb",
+    "sha256": "58eeecb9d32a24f85ec3d74721ab53c438d9a45ca1c971f6a0f4b7ed3946c989"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "forex_stats.ipynb",
+    "preserved_path": "archive/editor_history/Code/-fb1e13e/RI5A.ipynb",
+    "sha256": "893878dd3277cbb13085c5aa8a6c5b9b355aa30b74a0106bd2fd400a2bd3236a"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "nifty_stats.ipynb",
+    "preserved_path": "archive/editor_history/Code/206ab756/YwFC.ipynb",
+    "sha256": "86f948c89021ba5e5c0d26a1861a99b5fd7f02d79bb0f0316e75949cbe55ab1d"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "workshop2.ipynb",
+    "preserved_path": "archive/editor_history/Code/372cb1/KSMS.ipynb",
+    "sha256": "9c5df53b5f11ddb7e1118246eded6cd659c31b9109d2c273c229675e584aedac"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "Forex_try.ipynb",
+    "preserved_path": "archive/editor_history/Code/51e36d7e/JE7B.ipynb",
+    "sha256": "5154748ba11c9362854d821e84aba9f87ce73bac36e47fc5c3b878fb31d1f35b"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "different_time_frame.ipynb",
+    "preserved_path": "archive/editor_history/Code/5f9e7e4b/qqyN.ipynb",
+    "sha256": "f416feec8164ee2ead67db4497622444e90dbb5033f70cf586bf71e789d3f24c"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "analysis.ipynb",
+    "preserved_path": "archive/editor_history/Code/622552a6/wzAc.ipynb",
+    "sha256": "d0e051b985374f53b383d1ce3e95014e2ad2f694ac88c556f3b7a7dac01ac01c"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "analysis.ipynb",
+    "preserved_path": "archive/editor_history/Code/622552a6/dnmK.ipynb",
+    "sha256": "9c5e31f2a2bd01becc5c19a40dc127b24c1a626c3c831621361c0ace4b97a4ce"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "analysis.ipynb",
+    "preserved_path": "archive/editor_history/Code/622552a6/bU6u.ipynb",
+    "sha256": "8fcb02350c7d36361aec37bb32167b62ecf3d688d5ecf0a32cadf1ec130b57f9"
+  },
+  {
+    "kind": "editor_history",
+    "source_notebook": "final.1.ipynb",
+    "preserved_path": "archive/editor_history/Code/750e17df/W1np.ipynb",
+    "sha256": "41c264aad2472884c06ac84131273cb0e577998132c63a6ff0e77a4db75636eb"
+  }
+]

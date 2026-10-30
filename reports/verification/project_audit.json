@@ -1,0 +1,14 @@
+{
+  "review_notebooks": 26,
+  "cell_positions_preserved": 465,
+  "named_error_cells_cleared_in_copies": 22,
+  "preserved_interrupted_or_unclassified_error_outputs": 2,
+  "python_scripts_checked": 3,
+  "original_file_hashes_verified": 187,
+  "errors": [],
+  "warnings": [
+    "notebooks/05_asset_exploration/goldd.ipynb: cell 19: preserved interruption/unclassified error, see cleanup log",
+    "notebooks/05_asset_exploration/nift50_latest.ipynb: cell 6: preserved interruption/unclassified error, see cleanup log"
+  ],
+  "scope": "Static hygiene and exact preservation; not execution of historical model experiments"
+}

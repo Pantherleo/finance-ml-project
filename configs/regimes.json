@@ -1,0 +1,44 @@
+{
+  "cross_asset": {
+    "source": "final.1.ipynb cell 1 and analysis.ipynb cell 4",
+    "regimes": {
+      "DF1": [
+        2007,
+        2011
+      ],
+      "DF2": [
+        2012,
+        2019
+      ],
+      "DF3": [
+        2020,
+        2022
+      ],
+      "DF4": [
+        2023,
+        null
+      ]
+    }
+  },
+  "tuned": {
+    "source": "final.try.nifty.ipynb cell 25",
+    "regimes": {
+      "DF1": [
+        2007,
+        2010
+      ],
+      "DF2": [
+        2011,
+        2019
+      ],
+      "DF3": [
+        2020,
+        2021
+      ],
+      "DF4": [
+        2022,
+        null
+      ]
+    }
+  }
+}

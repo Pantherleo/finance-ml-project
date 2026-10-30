@@ -1,0 +1,957 @@
+{
+  "regime_scheme": "cross_asset",
+  "regimes": {
+    "DF1": [
+      2007,
+      2011
+    ],
+    "DF2": [
+      2012,
+      2019
+    ],
+    "DF3": [
+      2020,
+      2022
+    ],
+    "DF4": [
+      2023,
+      null
+    ]
+  },
+  "forecast_origin": "After the origin observation closes; forecast High/Low of the next available observation",
+  "split": "Per-regime chronological 70/15/15 on accepted observations; no cross-boundary forecast pairs",
+  "units": "Source price units per asset, unverified; no currency conversion or adjusted-price reconciliation",
+  "comparison_limit": "Independent reference; historical model results are not rerun or aligned to these exact samples",
+  "assets": {
+    "gold": {
+      "file": "gold_2007_to_present.csv",
+      "sha256": "fe038e8eb3ac45a190b84925096c619842ccf5743a8e959956b64f8bdf49701e",
+      "data_quality": {
+        "input_rows": 4745,
+        "accepted_rows": 4744,
+        "rejected_by_reason": {
+          "high_below_low": 1
+        },
+        "first_date": "2007-01-02",
+        "last_date": "2025-11-09",
+        "max_calendar_gap_days": 5,
+        "close_outside_high_low_rows": 147,
+        "cleaning": "Read-only exclusion of invalid Date/Close/High/Low and High<Low; no fill or resampling"
+      },
+      "regime_results": {
+        "DF1": {
+          "status": "completed",
+          "rows": 1260,
+          "train_rows": 882,
+          "validation_rows": 189,
+          "test_rows": 189,
+          "test_forecast_pairs": 188,
+          "train_start": "2007-01-02",
+          "train_end": "2010-07-02",
+          "validation_start": "2010-07-06",
+          "validation_end": "2011-04-01",
+          "test_start": "2011-04-04",
+          "test_end": "2011-12-30",
+          "training_constants": {
+            "High": 897.2608397307604,
+            "Low": 884.9972750342793
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 15.179788148936169,
+                "rmse": 20.738429873502266,
+                "r2": 0.9703595229393697
+              },
+              "current_close": {
+                "mae": 16.47393736702127,
+                "rmse": 22.413998338783315,
+                "r2": 0.9653764084964531
+              },
+              "train_mean": {
+                "mae": 750.3226752160481,
+                "rmse": 759.93031806601,
+                "r2": -38.79980893751549
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 17.096271313829785,
+                "rmse": 24.446841647637765,
+                "r2": 0.9519859867058371
+              },
+              "current_close": {
+                "mae": 16.42446445744681,
+                "rmse": 25.231384611339184,
+                "r2": 0.9488548264025731
+              },
+              "train_mean": {
+                "mae": 736.6144284178483,
+                "rmse": 745.0155593073756,
+                "r2": -43.59161228586226
+              }
+            }
+          }
+        },
+        "DF2": {
+          "status": "completed",
+          "rows": 2009,
+          "train_rows": 1406,
+          "validation_rows": 301,
+          "test_rows": 302,
+          "test_forecast_pairs": 301,
+          "train_start": "2012-01-03",
+          "train_end": "2017-08-07",
+          "validation_start": "2017-08-08",
+          "validation_end": "2018-10-17",
+          "test_start": "2018-10-18",
+          "test_end": "2019-12-31",
+          "training_constants": {
+            "High": 1345.2263339978647,
+            "Low": 1330.6721005494662
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 7.250167455149505,
+                "rmse": 9.868606546934227,
+                "r2": 0.991200420505355
+              },
+              "current_close": {
+                "mae": 7.407311318936876,
+                "rmse": 10.189187915918426,
+                "r2": 0.9906194264267946
+              },
+              "train_mean": {
+                "mae": 95.13773513271302,
+                "rmse": 108.38491527584506,
+                "r2": -0.061421633996889824
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 6.899335405315613,
+                "rmse": 9.152448405334209,
+                "r2": 0.9919034422738903
+              },
+              "current_close": {
+                "mae": 6.4621253322259165,
+                "rmse": 9.095369996021748,
+                "r2": 0.9920041142630224
+              },
+              "train_mean": {
+                "mae": 91.49857169913574,
+                "rmse": 106.4379600382945,
+                "r2": -0.09501211140494026
+              }
+            }
+          }
+        },
+        "DF3": {
+          "status": "completed",
+          "rows": 756,
+          "train_rows": 529,
+          "validation_rows": 113,
+          "test_rows": 114,
+          "test_forecast_pairs": 113,
+          "train_start": "2020-01-02",
+          "train_end": "2022-02-04",
+          "validation_start": "2022-02-07",
+          "validation_end": "2022-07-20",
+          "test_start": "2022-07-21",
+          "test_end": "2022-12-30",
+          "training_constants": {
+            "High": 1797.13920525,
+            "Low": 1776.9098485378788
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 11.81238767256637,
+                "rmse": 15.131871350052597,
+                "r2": 0.9271107725823857
+              },
+              "current_close": {
+                "mae": 11.824777265486725,
+                "rmse": 16.1970711287734,
+                "r2": 0.9164875845342534
+              },
+              "train_mean": {
+                "mae": 66.85768921460178,
+                "rmse": 83.93460996246583,
+                "r2": -1.2426433856950951
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 11.194688070796465,
+                "rmse": 14.731990535629233,
+                "r2": 0.9311662871414063
+              },
+              "current_close": {
+                "mae": 10.307965053097343,
+                "rmse": 13.876162127407008,
+                "r2": 0.9389315264875698
+              },
+              "train_mean": {
+                "mae": 63.410789258983655,
+                "rmse": 80.93034044155023,
+                "r2": -1.0773088343623027
+              }
+            }
+          }
+        },
+        "DF4": {
+          "status": "completed",
+          "rows": 719,
+          "train_rows": 503,
+          "validation_rows": 108,
+          "test_rows": 108,
+          "test_forecast_pairs": 107,
+          "train_start": "2023-01-03",
+          "train_end": "2025-01-02",
+          "validation_start": "2025-01-03",
+          "validation_end": "2025-06-09",
+          "test_start": "2025-06-10",
+          "test_end": "2025-11-09",
+          "training_constants": {
+            "High": 2178.355778806773,
+            "Low": 2159.3105556274904
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 28.038316383177573,
+                "rmse": 39.50097327345363,
+                "r2": 0.9838837301689224
+              },
+              "current_close": {
+                "mae": 33.13364764485979,
+                "rmse": 44.405147546578526,
+                "r2": 0.9796335388978911
+              },
+              "train_mean": {
+                "mae": 1445.3900068848159,
+                "rmse": 1478.5023325952088,
+                "r2": -21.57838973313415
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 29.5981239906542,
+                "rmse": 38.131045901623565,
+                "r2": 0.9827036397659753
+              },
+              "current_close": {
+                "mae": 27.163549121495326,
+                "rmse": 43.301533594726195,
+                "r2": 0.97769491708155
+              },
+              "train_mean": {
+                "mae": 1418.8969228304536,
+                "rmse": 1448.21650914751,
+                "r2": -23.949639466371888
+              }
+            }
+          }
+        }
+      }
+    },
+    "crude_oil": {
+      "file": "crude_oil_2007_to_present.csv",
+      "sha256": "b7164354954e70910c22a157e0d3f21d05b1db23786f282ef7300d6704759f6c",
+      "data_quality": {
+        "input_rows": 4746,
+        "accepted_rows": 4746,
+        "rejected_by_reason": {},
+        "first_date": "2007-01-02",
+        "last_date": "2025-11-09",
+        "max_calendar_gap_days": 5,
+        "close_outside_high_low_rows": 0,
+        "cleaning": "Read-only exclusion of invalid Date/Close/High/Low and High<Low; no fill or resampling"
+      },
+      "regime_results": {
+        "DF1": {
+          "status": "completed",
+          "rows": 1261,
+          "train_rows": 882,
+          "validation_rows": 189,
+          "test_rows": 190,
+          "test_forecast_pairs": 189,
+          "train_start": "2007-01-02",
+          "train_end": "2010-07-01",
+          "validation_start": "2010-07-02",
+          "validation_end": "2011-03-31",
+          "test_start": "2011-04-01",
+          "test_end": "2011-12-30",
+          "training_constants": {
+            "High": 79.60635637505108,
+            "Low": 76.62849036108966
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 1.2783598285714286,
+                "rmse": 1.7049767966592562,
+                "r2": 0.9563715064476699
+              },
+              "current_close": {
+                "mae": 1.420476278994709,
+                "rmse": 1.816163579326673,
+                "r2": 0.9504956689779243
+              },
+              "train_mean": {
+                "mae": 17.045086569393906,
+                "rmse": 18.88337115327235,
+                "r2": -4.351707022928123
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 1.4109525311640214,
+                "rmse": 1.8997240502702313,
+                "r2": 0.9490089998873158
+              },
+              "current_close": {
+                "mae": 1.8004231524338623,
+                "rmse": 2.3945121151522355,
+                "r2": 0.9189885201114469
+              },
+              "train_mean": {
+                "mae": 16.917297751049805,
+                "rmse": 18.869079021484502,
+                "r2": -4.030531755560902
+              }
+            }
+          }
+        },
+        "DF2": {
+          "status": "completed",
+          "rows": 2010,
+          "train_rows": 1407,
+          "validation_rows": 301,
+          "test_rows": 302,
+          "test_forecast_pairs": 301,
+          "train_start": "2012-01-03",
+          "train_end": "2017-08-08",
+          "validation_start": "2017-08-09",
+          "validation_end": "2018-10-17",
+          "test_start": "2018-10-18",
+          "test_end": "2019-12-31",
+          "training_constants": {
+            "High": 73.59700565139403,
+            "Low": 71.75312233700569
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 0.707674336910299,
+                "rmse": 1.0016946455541627,
+                "r2": 0.9485769669465411
+              },
+              "current_close": {
+                "mae": 0.9127907610299003,
+                "rmse": 1.2214883208427698,
+                "r2": 0.9235344842926595
+              },
+              "train_mean": {
+                "mae": 15.886905927340871,
+                "rmse": 16.489581087042332,
+                "r2": -12.934976141963409
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 0.783920250465116,
+                "rmse": 1.087292906137393,
+                "r2": 0.9455383858554056
+              },
+              "current_close": {
+                "mae": 0.9651828021594683,
+                "rmse": 1.3470861608391849,
+                "r2": 0.9164034896314242
+              },
+              "train_mean": {
+                "mae": 15.82279010252064,
+                "rmse": 16.49447866036518,
+                "r2": -11.53356410281671
+              }
+            }
+          }
+        },
+        "DF3": {
+          "status": "completed",
+          "rows": 756,
+          "train_rows": 529,
+          "validation_rows": 113,
+          "test_rows": 114,
+          "test_forecast_pairs": 113,
+          "train_start": "2020-01-02",
+          "train_end": "2022-02-04",
+          "validation_start": "2022-02-07",
+          "validation_end": "2022-07-20",
+          "test_start": "2022-07-21",
+          "test_end": "2022-12-30",
+          "training_constants": {
+            "High": 56.16736748357955,
+            "Low": 53.854697088314396
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 1.5293805291150442,
+                "rmse": 1.902653165420211,
+                "r2": 0.9121036032502488
+              },
+              "current_close": {
+                "mae": 1.8649555989380528,
+                "rmse": 2.229794204532209,
+                "r2": 0.8792794013044212
+              },
+              "train_mean": {
+                "mae": 31.21369430765939,
+                "rmse": 31.86660597897699,
+                "r2": -23.65604629622715
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 1.562300893274336,
+                "rmse": 1.9451637933151562,
+                "r2": 0.8998932883492666
+              },
+              "current_close": {
+                "mae": 1.95424780380531,
+                "rmse": 2.4329200319784348,
+                "r2": 0.8433946804740446
+              },
+              "train_mean": {
+                "mae": 29.76786940513693,
+                "rmse": 30.396090829345994,
+                "r2": -23.444789883264374
+              }
+            }
+          }
+        },
+        "DF4": {
+          "status": "completed",
+          "rows": 719,
+          "train_rows": 503,
+          "validation_rows": 108,
+          "test_rows": 108,
+          "test_forecast_pairs": 107,
+          "train_start": "2023-01-03",
+          "train_end": "2025-01-02",
+          "validation_start": "2025-01-03",
+          "validation_end": "2025-06-09",
+          "test_start": "2025-06-10",
+          "test_end": "2025-11-09",
+          "training_constants": {
+            "High": 77.82748998203186,
+            "Low": 75.54478091328686
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 0.8603737728971966,
+                "rmse": 1.5937578884444463,
+                "r2": 0.8478309022027475
+              },
+              "current_close": {
+                "mae": 1.0342993692523363,
+                "rmse": 1.588455901718322,
+                "r2": 0.8488416661913696
+              },
+              "train_mean": {
+                "mae": 12.626041449750895,
+                "rmse": 13.260437005182329,
+                "r2": -9.534100185541927
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 0.8038319737383178,
+                "rmse": 1.2048010431421936,
+                "r2": 0.8645176082754072
+              },
+              "current_close": {
+                "mae": 0.9702801217757007,
+                "rmse": 1.419269332741246,
+                "r2": 0.8119896220275341
+              },
+              "train_mean": {
+                "mae": 12.250107992071904,
+                "rmse": 12.679867956876395,
+                "r2": -14.006577210084602
+              }
+            }
+          }
+        }
+      }
+    },
+    "forex_usd_inr": {
+      "file": "forex_usd_inr_2007_to_present.csv",
+      "sha256": "a2209d999fd02c7b6664eae5baa5963651da84e06f86be9747ab8125b733ee41",
+      "data_quality": {
+        "input_rows": 4889,
+        "accepted_rows": 4889,
+        "rejected_by_reason": {},
+        "first_date": "2007-01-01",
+        "last_date": "2025-11-10",
+        "max_calendar_gap_days": 26,
+        "close_outside_high_low_rows": 232,
+        "cleaning": "Read-only exclusion of invalid Date/Close/High/Low and High<Low; no fill or resampling"
+      },
+      "regime_results": {
+        "DF1": {
+          "status": "completed",
+          "rows": 1280,
+          "train_rows": 896,
+          "validation_rows": 192,
+          "test_rows": 192,
+          "test_forecast_pairs": 191,
+          "train_start": "2007-01-01",
+          "train_end": "2010-07-09",
+          "validation_start": "2010-07-12",
+          "validation_end": "2011-04-05",
+          "test_start": "2011-04-06",
+          "test_end": "2011-12-30",
+          "training_constants": {
+            "High": 44.79153575359776,
+            "Low": 44.42321622184358
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 0.17733504963350805,
+                "rmse": 0.2541613465660338,
+                "r2": 0.9930314602747572
+              },
+              "current_close": {
+                "mae": 0.3388274430366489,
+                "rmse": 0.4769678405229031,
+                "r2": 0.9754585075417448
+              },
+              "train_mean": {
+                "mae": 2.690891311374888,
+                "rmse": 3.9644291212511846,
+                "r2": -0.6954464992931917
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 0.2019267857591622,
+                "rmse": 0.5632542455002189,
+                "r2": 0.9637192497828581
+              },
+              "current_close": {
+                "mae": 0.23086376062827213,
+                "rmse": 0.4695564205316636,
+                "r2": 0.9747859344413514
+              },
+              "train_mean": {
+                "mae": 2.6736373280634087,
+                "rmse": 3.9094799453552493,
+                "r2": -0.7478545539758954
+              }
+            }
+          }
+        },
+        "DF2": {
+          "status": "completed",
+          "rows": 2083,
+          "train_rows": 1458,
+          "validation_rows": 312,
+          "test_rows": 313,
+          "test_forecast_pairs": 312,
+          "train_start": "2012-01-02",
+          "train_end": "2017-08-04",
+          "validation_start": "2017-08-07",
+          "validation_end": "2018-10-17",
+          "test_start": "2018-10-18",
+          "test_end": "2019-12-31",
+          "training_constants": {
+            "High": 61.545631707110495,
+            "Low": 61.106373383081674
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 0.20800492669871787,
+                "rmse": 0.2773169453305626,
+                "r2": 0.944629444629166
+              },
+              "current_close": {
+                "mae": 0.3114731372115384,
+                "rmse": 0.4174264984788478,
+                "r2": 0.8745455433679683
+              },
+              "train_mean": {
+                "mae": 9.35289296846643,
+                "rmse": 9.426850817729303,
+                "r2": -62.98222410486921
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 0.18469358073717998,
+                "rmse": 0.2508779265074484,
+                "r2": 0.9519661429406662
+              },
+              "current_close": {
+                "mae": 0.39703026782051287,
+                "rmse": 0.49906999136316527,
+                "r2": 0.8099160395798127
+              },
+              "train_mean": {
+                "mae": 9.29110780175807,
+                "rmse": 9.361356974336534,
+                "r2": -65.88060159595635
+              }
+            }
+          }
+        },
+        "DF3": {
+          "status": "completed",
+          "rows": 783,
+          "train_rows": 548,
+          "validation_rows": 117,
+          "test_rows": 118,
+          "test_forecast_pairs": 117,
+          "train_start": "2020-01-01",
+          "train_end": "2022-02-04",
+          "validation_start": "2022-02-07",
+          "validation_end": "2022-07-19",
+          "test_start": "2022-07-20",
+          "test_end": "2022-12-30",
+          "training_constants": {
+            "High": 74.35231032018281,
+            "Low": 73.84293431032907
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 0.18698674435897458,
+                "rmse": 0.26395648412894507,
+                "r2": 0.9596577986595833
+              },
+              "current_close": {
+                "mae": 0.39156543786324827,
+                "rmse": 0.4928692654866418,
+                "r2": 0.8593439565680979
+              },
+              "train_mean": {
+                "mae": 7.078013484347106,
+                "rmse": 7.198980868578446,
+                "r2": -29.00799380104762
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 0.21415182299145313,
+                "rmse": 0.3081816825073975,
+                "r2": 0.9442578876856876
+              },
+              "current_close": {
+                "mae": 0.27511935726495695,
+                "rmse": 0.3795824300020774,
+                "r2": 0.9154366884674108
+              },
+              "train_mean": {
+                "mae": 7.046237323004263,
+                "rmse": 7.166122099969465,
+                "r2": -29.13964867059222
+              }
+            }
+          }
+        },
+        "DF4": {
+          "status": "completed",
+          "rows": 743,
+          "train_rows": 520,
+          "validation_rows": 111,
+          "test_rows": 112,
+          "test_forecast_pairs": 111,
+          "train_start": "2023-01-02",
+          "train_end": "2024-12-27",
+          "validation_start": "2024-12-30",
+          "validation_end": "2025-06-05",
+          "test_start": "2025-06-06",
+          "test_end": "2025-11-10",
+          "training_constants": {
+            "High": 83.23438414354528,
+            "Low": 82.98095309159922
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 0.1426485077477484,
+                "rmse": 0.20798846594597756,
+                "r2": 0.9633029007433136
+              },
+              "current_close": {
+                "mae": 0.2496056086486479,
+                "rmse": 0.3342685682499129,
+                "r2": 0.9052139739851459
+              },
+              "train_mean": {
+                "mae": 4.333463649697959,
+                "rmse": 4.467406991249195,
+                "r2": -15.930285124135896
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 0.17236898666666697,
+                "rmse": 0.25741191298385385,
+                "r2": 0.9490642678956559
+              },
+              "current_close": {
+                "mae": 0.2312655064864867,
+                "rmse": 0.3114081473785512,
+                "r2": 0.9254538514960381
+              },
+              "train_mean": {
+                "mae": 4.225376598040421,
+                "rmse": 4.376605978498515,
+                "r2": -13.724486799007288
+              }
+            }
+          }
+        }
+      }
+    },
+    "nifty50": {
+      "file": "nifty50_2007_to_now.csv",
+      "sha256": "fa209a77fe2fc862e3caca4cff917bb6adb6e4e9973ec1f2cfa107cf0203d9a7",
+      "data_quality": {
+        "input_rows": 4462,
+        "accepted_rows": 4462,
+        "rejected_by_reason": {},
+        "first_date": "2007-09-17",
+        "last_date": "2025-11-25",
+        "max_calendar_gap_days": 6,
+        "close_outside_high_low_rows": 0,
+        "cleaning": "Read-only exclusion of invalid Date/Close/High/Low and High<Low; no fill or resampling"
+      },
+      "regime_results": {
+        "DF1": {
+          "status": "completed",
+          "rows": 1050,
+          "train_rows": 735,
+          "validation_rows": 157,
+          "test_rows": 158,
+          "test_forecast_pairs": 157,
+          "train_start": "2007-09-17",
+          "train_end": "2010-09-16",
+          "validation_start": "2010-09-17",
+          "validation_end": "2011-05-05",
+          "test_start": "2011-05-06",
+          "test_end": "2011-12-30",
+          "training_constants": {
+            "High": 4660.025951422343,
+            "Low": 4542.467301132152
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 50.092677000000016,
+                "rmse": 65.21441942990596,
+                "r2": 0.9517857685054992
+              },
+              "current_close": {
+                "mae": 51.17610152866244,
+                "rmse": 66.42757802532152,
+                "r2": 0.9499752622608333
+              },
+              "train_mean": {
+                "mae": 568.8705690024304,
+                "rmse": 641.0604925461492,
+                "r2": -3.6589281184650773
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 51.76973343312099,
+                "rmse": 67.85239302250349,
+                "r2": 0.9520126158177538
+              },
+              "current_close": {
+                "mae": 58.225470891719716,
+                "rmse": 73.29179645602916,
+                "r2": 0.9440103861039967
+              },
+              "train_mean": {
+                "mae": 600.0017134236716,
+                "rmse": 675.1072915643322,
+                "r2": -3.7505329669696916
+              }
+            }
+          }
+        },
+        "DF2": {
+          "status": "completed",
+          "rows": 1951,
+          "train_rows": 1365,
+          "validation_rows": 293,
+          "test_rows": 293,
+          "test_forecast_pairs": 292,
+          "train_start": "2012-01-03",
+          "train_end": "2017-08-04",
+          "validation_start": "2017-08-07",
+          "validation_end": "2018-10-12",
+          "test_start": "2018-10-15",
+          "test_end": "2019-12-31",
+          "training_constants": {
+            "High": 7282.259466704545,
+            "Low": 7201.595271051319
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 63.808583732876734,
+                "rmse": 89.89866021829482,
+                "r2": 0.970746094437817
+              },
+              "current_close": {
+                "mae": 74.36047517123295,
+                "rmse": 101.54456358306973,
+                "r2": 0.9626757773761673
+              },
+              "train_mean": {
+                "mae": 4069.8747972680576,
+                "rmse": 4103.6744237876055,
+                "r2": -59.956947549824136
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 68.36384654109584,
+                "rmse": 96.38323272759223,
+                "r2": 0.9673263300251633
+              },
+              "current_close": {
+                "mae": 67.98957886986305,
+                "rmse": 87.8968412652245,
+                "r2": 0.9728267567053149
+              },
+              "train_mean": {
+                "mae": 4027.192369907585,
+                "rmse": 4062.33883925154,
+                "r2": -57.04264980607471
+              }
+            }
+          }
+        },
+        "DF3": {
+          "status": "completed",
+          "rows": 746,
+          "train_rows": 522,
+          "validation_rows": 112,
+          "test_rows": 112,
+          "test_forecast_pairs": 111,
+          "train_start": "2020-01-01",
+          "train_end": "2022-02-04",
+          "validation_start": "2022-02-07",
+          "validation_end": "2022-07-19",
+          "test_start": "2022-07-20",
+          "test_end": "2022-12-30",
+          "training_constants": {
+            "High": 13866.66513634549,
+            "Low": 13675.637905182342
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 95.40762252252256,
+                "rmse": 129.16784337336105,
+                "r2": 0.9437392258385726
+              },
+              "current_close": {
+                "mae": 111.69598108108104,
+                "rmse": 143.42270867443568,
+                "r2": 0.9306362239425475
+              },
+              "train_mean": {
+                "mae": 4003.732685186042,
+                "rmse": 4040.5975987223146,
+                "r2": -54.05389999471251
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 112.18788702702702,
+                "rmse": 142.64264374598298,
+                "r2": 0.9359152995744893
+              },
+              "current_close": {
+                "mae": 115.26717333333337,
+                "rmse": 147.62633303514397,
+                "r2": 0.9313590534138865
+              },
+              "train_mean": {
+                "mae": 4017.683234367207,
+                "rmse": 4057.0037049719363,
+                "r2": -50.840168937412805
+              }
+            }
+          }
+        },
+        "DF4": {
+          "status": "completed",
+          "rows": 715,
+          "train_rows": 500,
+          "validation_rows": 107,
+          "test_rows": 108,
+          "test_forecast_pairs": 107,
+          "train_start": "2023-01-02",
+          "train_end": "2025-01-13",
+          "validation_start": "2025-01-14",
+          "validation_end": "2025-06-19",
+          "test_start": "2025-06-20",
+          "test_end": "2025-11-25",
+          "training_constants": {
+            "High": 21349.522427695392,
+            "Low": 21152.007417174347
+          },
+          "metrics": {
+            "High": {
+              "persistence": {
+                "mae": 87.86808214953261,
+                "rmse": 112.87767903971586,
+                "r2": 0.9378694552040407
+              },
+              "current_close": {
+                "mae": 108.92928616822395,
+                "rmse": 135.97002756895947,
+                "r2": 0.9098479947865021
+              },
+              "train_mean": {
+                "mae": 3956.9382725849814,
+                "rmse": 3982.7672128072822,
+                "r2": -76.34974143448746
+              }
+            },
+            "Low": {
+              "persistence": {
+                "mae": 98.3098167289721,
+                "rmse": 122.52536806078282,
+                "r2": 0.9286822222679092
+              },
+              "current_close": {
+                "mae": 96.13469242990679,
+                "rmse": 123.58112646925963,
+                "r2": 0.9274478862724491
+              },
+              "train_mean": {
+                "mae": 3972.542560956494,
+                "rmse": 3998.949290837933,
+                "r2": -74.96920201527203
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

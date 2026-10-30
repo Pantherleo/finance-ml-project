@@ -1,0 +1,640 @@
+[
+  {
+    "path": "ablation_gold_df1_convlstm_style.csv",
+    "rows": 4,
+    "columns": [
+      "Config",
+      "Val split used",
+      "Early stopping used",
+      "Normalization",
+      "Dilation",
+      "n_train",
+      "n_val",
+      "n_test",
+      "R2_High",
+      "R2_Low",
+      "MAE_High",
+      "MAE_Low"
+    ],
+    "sha256": "6938e132ba9d23f57f464c5d9c50f09444f86ece134b5435d2d7e079ce87585b",
+    "role": "historical_export"
+  },
+  {
+    "path": "alphabet_2007_to_present.csv",
+    "rows": 4746,
+    "columns": [
+      "Price",
+      "Close",
+      "High",
+      "Low",
+      "Open",
+      "Volume"
+    ],
+    "sha256": "8b3358d629badd7bb3d4d00b5e844d071f41bd29a14af5ff68889bdeaaab6f2a",
+    "role": "raw_price_table"
+  },
+  {
+    "path": "apple_2007_to_present.csv",
+    "rows": 4746,
+    "columns": [
+      "Price",
+      "Close",
+      "High",
+      "Low",
+      "Open",
+      "Volume"
+    ],
+    "sha256": "98a69f12ef797a2597f37f5f6e948e5e2e9beca3b82a4b33481f6068b128a053",
+    "role": "raw_price_table"
+  },
+  {
+    "path": "Conv1D_LSTM_baseline_results.csv",
+    "rows": 4,
+    "columns": [
+      "Regime",
+      "High_MAE",
+      "High_RMSE",
+      "High_R2",
+      "High_MAPE",
+      "Low_MAE",
+      "Low_RMSE",
+      "Low_R2",
+      "Low_MAPE",
+      "Best_Epoch"
+    ],
+    "sha256": "05f3e2575420ae1170b9a3fa5f8427a80a88ade13d9e593acf64e12623db36cb",
+    "role": "historical_export"
+  },
+  {
+    "path": "ConvLSTM_best_hyperparameters.csv",
+    "rows": 4,
+    "columns": [
+      "Regime",
+      "conv_filters",
+      "kernel_size",
+      "lstm_units_1",
+      "lstm_units_2",
+      "dropout",
+      "dense_units",
+      "learning_rate",
+      "batch_size",
+      "Best_Validation_MAPE"
+    ],
+    "sha256": "9cbc87090b84ec3d0a627455bd3f3357895aeb03816fdc5f2297f833a7b1e612",
+    "role": "historical_export"
+  },
+  {
+    "path": "ConvLSTM_OPTIMIZED_FINAL_RESULTS.csv",
+    "rows": 4,
+    "columns": [
+      "Regime",
+      "High_MAE",
+      "High_RMSE",
+      "High_R2",
+      "High_MAPE",
+      "Low_MAE",
+      "Low_RMSE",
+      "Low_R2",
+      "Low_MAPE",
+      "Best_Validation_MAPE",
+      "Best_Epochs"
+    ],
+    "sha256": "e32c1895bdcd6fe460eede11338e58d0d5cd94f3226c9cf6a899396257249ef4",
+    "role": "historical_export"
+  },
+  {
+    "path": "ConvLSTM_Optuna_all_trials.csv",
+    "rows": 120,
+    "columns": [
+      "number",
+      "value",
+      "datetime_start",
+      "datetime_complete",
+      "duration",
+      "params_batch_size",
+      "params_conv_filters",
+      "params_dense_units",
+      "params_dropout",
+      "params_kernel_size",
+      "params_learning_rate",
+      "params_lstm_units_1",
+      "params_lstm_units_2",
+      "user_attrs_epochs_used",
+      "user_attrs_validation_mape",
+      "state",
+      "Regime"
+    ],
+    "sha256": "95d714d7f01cba89eea062cc403b24e8b9c8efedfaeb88cfb0bfcc71b7f6dcf1",
+    "role": "historical_export"
+  },
+  {
+    "path": "ConvLSTM_style_baseline_results.csv",
+    "rows": 4,
+    "columns": [
+      "Regime",
+      "High_MAE",
+      "High_RMSE",
+      "High_R2",
+      "High_MAPE",
+      "Low_MAE",
+      "Low_RMSE",
+      "Low_R2",
+      "Low_MAPE",
+      "Best_Epoch"
+    ],
+    "sha256": "aefa89755a7f27070ffcff1d0821c76a30e87d4d8e1cb7ea7dfbe0126712570f",
+    "role": "historical_export"
+  },
+  {
+    "path": "crude_oil_2007_to_present.csv",
+    "rows": 4746,
+    "columns": [
+      "Date",
+      "Close",
+      "High",
+      "Low",
+      "Open",
+      "Volume"
+    ],
+    "sha256": "b7164354954e70910c22a157e0d3f21d05b1db23786f282ef7300d6704759f6c",
+    "role": "raw_price_table"
+  },
+  {
+    "path": "crude_oil_tcn_convlstm_results.csv",
+    "rows": 12,
+    "columns": [
+      "Asset",
+      "Model",
+      "Regime",
+      "R2_High",
+      "R2_Low",
+      "MAE_High",
+      "MAE_Low",
+      "RMSE_High",
+      "RMSE_Low",
+      "MAPE_High",
+      "MAPE_Low",
+      "n_train",
+      "n_val",
+      "n_test"
+    ],
+    "sha256": "233af2335aef11ba1165a06f61f7f91c55380fe26ddafa275ac507860bb22eb4",
+    "role": "historical_export"
+  },
+  {
+    "path": "forex_tcn_convlstm_results.csv",
+    "rows": 12,
+    "columns": [
+      "Asset",
+      "Model",
+      "Regime",
+      "R2_High",
+      "R2_Low",
+      "MAE_High",
+      "MAE_Low",
+      "RMSE_High",
+      "RMSE_Low",
+      "MAPE_High",
+      "MAPE_Low",
+      "n_train",
+      "n_val",
+      "n_test"
+    ],
+    "sha256": "64e630bb38eae42436bdd95dc34643e5ef7fa0e1c0e2497afcc8f322f5061916",
+    "role": "historical_export"
+  },
+  {
+    "path": "forex_usd_inr_2007_to_present.csv",
+    "rows": 4889,
+    "columns": [
+      "Date",
+      "Close",
+      "High",
+      "Low",
+      "Open",
+      "Volume"
+    ],
+    "sha256": "a2209d999fd02c7b6664eae5baa5963651da84e06f86be9747ab8125b733ee41",
+    "role": "raw_price_table"
+  },
+  {
+    "path": "gold_2007_to_present.csv",
+    "rows": 4745,
+    "columns": [
+      "Date",
+      "Close",
+      "High",
+      "Low",
+      "Open",
+      "Volume"
+    ],
+    "sha256": "fe038e8eb3ac45a190b84925096c619842ccf5743a8e959956b64f8bdf49701e",
+    "role": "raw_price_table"
+  },
+  {
+    "path": "gold_tcn_convlstm_results.csv",
+    "rows": 12,
+    "columns": [
+      "Asset",
+      "Model",
+      "Regime",
+      "R2_High",
+      "R2_Low",
+      "MAE_High",
+      "MAE_Low",
+      "RMSE_High",
+      "RMSE_Low",
+      "MAPE_High",
+      "MAPE_Low",
+      "n_train",
+      "n_val",
+      "n_test"
+    ],
+    "sha256": "220daed65728d166ab1c65d25482189613ec2b5b3a06b9d367c9f70c145a4fa1",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/All_LSTM_Trials.csv",
+    "rows": 80,
+    "columns": [
+      "Regime",
+      "Trial",
+      "Validation_Loss",
+      "Best_Epoch",
+      "Units_1",
+      "Units_2",
+      "N_Layers",
+      "Dropout",
+      "Dense_Units",
+      "Learning_Rate",
+      "Batch_Size"
+    ],
+    "sha256": "16cd2a0fdc6115dcd24e689c69e2b5a6a7351f03cfc4a438df5e5f5b6bdcb17c",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/DF1_all_trials.csv",
+    "rows": 20,
+    "columns": [
+      "Regime",
+      "Trial",
+      "Validation_Loss",
+      "Best_Epoch",
+      "Units_1",
+      "Units_2",
+      "N_Layers",
+      "Dropout",
+      "Dense_Units",
+      "Learning_Rate",
+      "Batch_Size"
+    ],
+    "sha256": "7dff6c47cd3deb77ffa82dfef0761a41d5bd8048736c461431e3c4446a730aca",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/DF1_trials.csv",
+    "rows": 20,
+    "columns": [
+      "Regime",
+      "Trial",
+      "Validation_Loss",
+      "Best_Epoch",
+      "Units_1",
+      "Units_2",
+      "N_Layers",
+      "Dropout",
+      "Dense_Units",
+      "Learning_Rate",
+      "Batch_Size"
+    ],
+    "sha256": "62743e5d15106c98fdeb87d0bccb8bd8bdfccff8607ac3991b36e031d645fa0e",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/DF2_all_trials.csv",
+    "rows": 20,
+    "columns": [
+      "Regime",
+      "Trial",
+      "Validation_Loss",
+      "Best_Epoch",
+      "Units_1",
+      "Units_2",
+      "N_Layers",
+      "Dropout",
+      "Dense_Units",
+      "Learning_Rate",
+      "Batch_Size"
+    ],
+    "sha256": "c26faaf191618cecd33cc87cfdd576d0c45c63eff487d7569d69ef70c310404c",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/DF3_all_trials.csv",
+    "rows": 20,
+    "columns": [
+      "Regime",
+      "Trial",
+      "Validation_Loss",
+      "Best_Epoch",
+      "Units_1",
+      "Units_2",
+      "N_Layers",
+      "Dropout",
+      "Dense_Units",
+      "Learning_Rate",
+      "Batch_Size"
+    ],
+    "sha256": "214c941a4fe5166fb8c032e040e995ddcbcd51cf317b4ba321910d1ee8a219dc",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/DF4_all_trials.csv",
+    "rows": 20,
+    "columns": [
+      "Regime",
+      "Trial",
+      "Validation_Loss",
+      "Best_Epoch",
+      "Units_1",
+      "Units_2",
+      "N_Layers",
+      "Dropout",
+      "Dense_Units",
+      "Learning_Rate",
+      "Batch_Size"
+    ],
+    "sha256": "e6bbdcf1a175264d0bc44dd26941a92633585495b89c12d793bbdcf2a49b822e",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/Final_LSTM_Results.csv",
+    "rows": 4,
+    "columns": [
+      "Regime",
+      "High_MAE",
+      "High_RMSE",
+      "High_R2",
+      "High_MAPE",
+      "Low_MAE",
+      "Low_RMSE",
+      "Low_R2",
+      "Low_MAPE",
+      "Best_Validation_Loss",
+      "Train_Observations",
+      "Validation_Observations",
+      "Test_Observations",
+      "Lookback",
+      "Units_1",
+      "Units_2",
+      "N_Layers",
+      "Dropout",
+      "Dense_Units",
+      "Learning_Rate",
+      "Batch_Size"
+    ],
+    "sha256": "122a7e7d66dca029eb050d48f7a6fdecefad8e9c28a6d808402780f53c1988b1",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/predictions/DF1_predictions.csv",
+    "rows": 60,
+    "columns": [
+      "Date",
+      "Current_Close",
+      "Actual_High",
+      "Predicted_High",
+      "Actual_Low",
+      "Predicted_Low",
+      "High_Error",
+      "Low_Error"
+    ],
+    "sha256": "91f24c69c8f7ba9bbdfab5dc94855528ac06c784d3d3ce7faef7706a1091be54",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/predictions/DF2_predictions.csv",
+    "rows": 135,
+    "columns": [
+      "Date",
+      "Current_Close",
+      "Actual_High",
+      "Predicted_High",
+      "Actual_Low",
+      "Predicted_Low",
+      "High_Error",
+      "Low_Error"
+    ],
+    "sha256": "14f5b3464a9891ecf24011e171b9c7149958b45570f0832345efd92884d52101",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/predictions/DF3_predictions.csv",
+    "rows": 30,
+    "columns": [
+      "Date",
+      "Current_Close",
+      "Actual_High",
+      "Predicted_High",
+      "Actual_Low",
+      "Predicted_Low",
+      "High_Error",
+      "Low_Error"
+    ],
+    "sha256": "76ef6f04b1c605025ad55d7976264cd21879e59a04be5ff76d642fc93fcaa302",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/predictions/DF4_predictions.csv",
+    "rows": 59,
+    "columns": [
+      "Date",
+      "Current_Close",
+      "Actual_High",
+      "Predicted_High",
+      "Actual_Low",
+      "Predicted_Low",
+      "High_Error",
+      "Low_Error"
+    ],
+    "sha256": "1e8c7285ca053d7df13040f79db27cd6e95ab51a300581838364216589993dc1",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Hyperparameter_Tuning/Selected_LSTM_Parameters.csv",
+    "rows": 4,
+    "columns": [
+      "Regime",
+      "Best_Validation_Loss",
+      "Units_1",
+      "Units_2",
+      "N_Layers",
+      "Dropout",
+      "Dense_Units",
+      "Learning_Rate",
+      "Batch_Size"
+    ],
+    "sha256": "bb5fbb33394b7a24fcb18acfa08f8de45ad045d99efd20b69fd8e6f8c103e51c",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Regime_Results/DF1_Predictions.csv",
+    "rows": 75,
+    "columns": [
+      "Date",
+      "Actual_High",
+      "Predicted_High",
+      "Actual_Low",
+      "Predicted_Low",
+      "Actual_High_Ratio",
+      "Predicted_High_Ratio",
+      "Actual_Low_Ratio",
+      "Predicted_Low_Ratio",
+      "Close_t"
+    ],
+    "sha256": "3fe2a04c9d05bdac6dc54e64c651cc2e28f3dde76b5c0175052b9d8596265c0f",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Regime_Results/DF2_Predictions.csv",
+    "rows": 119,
+    "columns": [
+      "Date",
+      "Actual_High",
+      "Predicted_High",
+      "Actual_Low",
+      "Predicted_Low",
+      "Actual_High_Ratio",
+      "Predicted_High_Ratio",
+      "Actual_Low_Ratio",
+      "Predicted_Low_Ratio",
+      "Close_t"
+    ],
+    "sha256": "0e77b5394e9115cba897f318474ccee4cd8764ed4988f79757d80bd49fc78f50",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Regime_Results/DF3_Predictions.csv",
+    "rows": 45,
+    "columns": [
+      "Date",
+      "Actual_High",
+      "Predicted_High",
+      "Actual_Low",
+      "Predicted_Low",
+      "Actual_High_Ratio",
+      "Predicted_High_Ratio",
+      "Actual_Low_Ratio",
+      "Predicted_Low_Ratio",
+      "Close_t"
+    ],
+    "sha256": "7607cd975dd1df73e807054625a2c4ce3ac2b6c3860d48e332b2b6c09050ae46",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Regime_Results/DF4_Predictions.csv",
+    "rows": 44,
+    "columns": [
+      "Date",
+      "Actual_High",
+      "Predicted_High",
+      "Actual_Low",
+      "Predicted_Low",
+      "Actual_High_Ratio",
+      "Predicted_High_Ratio",
+      "Actual_Low_Ratio",
+      "Predicted_Low_Ratio",
+      "Close_t"
+    ],
+    "sha256": "e66b4813804b931e3ab0217f74fda76e64c9ab5f333fb0ba53cb34563669e2b4",
+    "role": "historical_export"
+  },
+  {
+    "path": "LSTM_Regime_Results/LSTM_Regime_Results.csv",
+    "rows": 4,
+    "columns": [
+      "Regime",
+      "High_MAE",
+      "High_RMSE",
+      "High_R2",
+      "High_MAPE",
+      "Low_MAE",
+      "Low_RMSE",
+      "Low_R2",
+      "Low_MAPE",
+      "Train_Observations",
+      "Validation_Observations",
+      "Test_Observations"
+    ],
+    "sha256": "79c274a7f62915fc8c4d791ef01a4fb8e2e6abfb434bb4787ef26c6baded8fae",
+    "role": "historical_export"
+  },
+  {
+    "path": "nifty50.csv",
+    "rows": 4464,
+    "columns": [
+      "Price",
+      "Close",
+      "High",
+      "Low",
+      "Open",
+      "Volume"
+    ],
+    "sha256": "14a197aa5f14f20e66c47a71c5fc98059454c23982f1210b68c264ab2e09ab28",
+    "role": "raw_price_table"
+  },
+  {
+    "path": "nifty50_2007_to_now.csv",
+    "rows": 4462,
+    "columns": [
+      "Date",
+      "Close",
+      "High",
+      "Low",
+      "Open",
+      "Volume"
+    ],
+    "sha256": "fa209a77fe2fc862e3caca4cff917bb6adb6e4e9973ec1f2cfa107cf0203d9a7",
+    "role": "raw_price_table"
+  },
+  {
+    "path": "nifty_50_tcn_convlstm_results.csv",
+    "rows": 12,
+    "columns": [
+      "Asset",
+      "Model",
+      "Regime",
+      "R2_High",
+      "R2_Low",
+      "MAE_High",
+      "MAE_Low",
+      "RMSE_High",
+      "RMSE_Low",
+      "MAPE_High",
+      "MAPE_Low",
+      "n_train",
+      "n_val",
+      "n_test"
+    ],
+    "sha256": "c2ef1fe1e12a85f8d751a6537c975b1b60f75b9e2914d49416c2c150b0325577",
+    "role": "historical_export"
+  },
+  {
+    "path": "TCN_baseline_results.csv",
+    "rows": 4,
+    "columns": [
+      "Regime",
+      "High_MAE",
+      "High_RMSE",
+      "High_R2",
+      "High_MAPE",
+      "Low_MAE",
+      "Low_RMSE",
+      "Low_R2",
+      "Low_MAPE",
+      "Best_Epoch"
+    ],
+    "sha256": "057f9ce644aa3ec644e98eb22272fd99868229cde856adbd2f65d84d3e380b43",
+    "role": "historical_export"
+  }
+]
