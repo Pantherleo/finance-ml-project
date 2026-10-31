@@ -14,3 +14,9 @@ Prepared on 2026-10-30 using Python 3.12.4.
 - No original file was deleted or moved. No Git repository was initialized and no files were uploaded.
 
 The audit is `python python_scripts/audit_project.py --verify-originals`. Source and recovery manifests record the exact preservation boundary. Model validity and economic interpretation remain subject to the documented review findings.
+
+## Follow-up verification on 2026-10-31
+
+The Git repository is now initialized and the complete prepared tree is being published to `Pantherleo/finance-ml-project`, preserving the earlier partial-upload commit. Static audit passed with zero errors and the same two documented warnings; all six tests passed. Both baseline schemes reran across all four assets and exactly reproduced the stored metrics.
+
+The full preservation recheck matched 186 of 187 original hashes. Only the excluded coursework repository's mutable `MLL_Datasets/.git/FETCH_HEAD` differs from the preparation snapshot. No research-content mismatch was reported. The original manifest remains unchanged, preserving the historical record. See [GitHub publication](GITHUB_PREPARATION.md).
